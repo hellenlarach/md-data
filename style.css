@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image:url(images/pw_maze_white.png);
+	background-repeat:repeat;
+	font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+	font-size:12px;
+    color:darkgray ;
+
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.nav{
+	position:fixed;
+	top:0;
+	width:900px;
+	/*background-color:#c0c0c0;
+    opacity: .4;*/
+    float: right;
+
+}
+
+ul{
+    float: right;
+
+}
+
+
+.nav ul li{
+	float:left;
+	display:inline;
+	list-style:none;
+	
+}
+
+li{
+	list-style-type:none;
+	display:inline;
+	text-decoration:none;
+	padding:10px;
+	font-size:15px;
+
+
+}
+
+/* unvisited link */
+a:link {
+    color:#999;
+	text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color:#000;
+	text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    background-color: #ff7600;
+    color:#fff;
+	text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    color:#999;
+	text-decoration:none;
+}
+
+h1{
+	font-size:30px;
+	color:#ff7600;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.container{
+	margin:60px;
+	text-align:center;
+	font-style:italic;
+}
+
+.container p{
+	font-size:20px;
+	color:#999;
+}
+
+.image{
+	padding-top:250px;
+	height:400px;
+	width:900px;
+	margin:0 auto;
+	background-image:url(images/florida.png);
+	background-position:center;
+	background-repeat:no-repeat;
+    border-bottom-color: #ff7600;
+    border-bottom-style: ridge;
+}
+
+#page1{
+	height:1000px;
+    padding-top: 50px;
+    position: relative;
+}
+
+#page2{
+	height:1000px;
+    padding-top: 200px;
+    position: relative;
+}
+
+#page3{
+	height:1000px;
+    padding-top: 200px;
+    position: relative;
+}
+
+#page1 h2{
+    color: #ff7600;
+    font-weight: lighter;
+}
+
+#page2 h2{
+    color: #ff7600;
+    font-weight: lighter;
+}
+
+#page3 h2{
+    color: #ff7600;
+    font-weight: lighter;
+}
+
+ul li{
+    display: block;
+    list-style-type: none;
+}
+
+#page1 ul li a:link {
+    color:#333333;
+    text-decoration:none;
+}
+
+/* visited link */
+#page1 ul li a:visited {
+    color:#000;
+    text-decoration:none;
+}
+
+/* mouse over link */
+#page1 ul li a:hover {
+    color:#333333;
+    text-decoration:underline;
+    background-color: transparent;
+
+}
+
+/* selected link */
+#page1 ul li a:active {
+    color:#333333;
+    text-decoration:none;
+}
+
+#page2{
+    padding-top: 500px;
+}
+
+#page3{
+    padding-top: 500px;
+}
+
+footer{
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: solid thin #ff7600;
+
+
+}
+

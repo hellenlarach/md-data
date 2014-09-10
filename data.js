@@ -1,0 +1,53 @@
+/**
+ * Created by hellenlarach on 8/27/14.
+ */
+var json;
+json = {"web-app": {
+    "servlet": [
+        {
+            "servlet-name": "mddata CDS civic source",
+            "servlet-class": "org.mddata.cds.CDSServlet",
+            "init-param": {
+                "configGlossary:installationAt": "Miami, FL",
+                "configGlossary:adminEmail": "myemail@mddata.com",
+                "configGlossary:poweredBy": "Abc",
+                "configGlossary:poweredByIcon": "/images/mddata.gif",
+                "configGlossary:staticPath": "/content/static",
+                "templateProcessorClass": "mddata.MyTemplate",
+                "templateLoaderClass": "mddata.MyTemplateLoader",
+                "templatePath": "templates",
+                "templateOverridePath": "",
+                "defaultListTemplate": "listMiamiTemplate.htm",
+                "defaultFileTemplate": "miamiArticleTemplate.htm",
+                "useJSP": false,
+                "jspListTemplate": "listTemplate.jsp",
+                "jspFileTemplate": "articleTemplate.jsp",
+                "cachePackageTagsTrack": 200,
+                "cachePackageTagsStore": 200,
+                "cachePackageTagsRefresh": 60,
+                "cacheTemplatesTrack": 100,
+                "cacheTemplatesStore": 50,
+                "cacheTemplatesRefresh": 15,
+                "cachePagesTrack": 200,
+                "cachePagesStore": 100,
+                "cachePagesRefresh": 10,
+                "cachePagesDirtyRead": 10,
+                "searchEngineListTemplate": "forSearchEnginesList.htm",
+                "searchEngineFileTemplate": "forSearchEngines.htm",
+                "searchEngineRobotsDb": "WEB-INF/robots.db",
+                "useDataStore": true,
+                "dataStoreClass": "mddata.MyTemplate.SqlDataStore",
+                "redirectionClass": "mddata.SqlRedirection",
+                "dataStoreName": "mddata",
+                "dataStoreDriver": "com.mddata.jdbc.sqlserver.SQLServerDriver",
+                "dataStoreUrl": "jdbc:mddata:sqlserver://LOCALHOST:010101;DatabaseName=goon",
+                "dataStoreUser": "sa",
+                "dataStorePassword": "dataStoreTestQuery",
+                "dataStoreTestQuery": "SET NOCOUNT ON;select test='test';",
+                "dataStoreLogFile": "/usr/local/tomcat/logs/datastore.log",
+                "dataStoreInitConns": 10,
+                "dataStoreMaxConns": 100,
+                "dataStoreConnUsageLimit": 100,
+                "dataStoreLogLevel": "debug",
+                "maxUrlLength": 500}},
+        {;
