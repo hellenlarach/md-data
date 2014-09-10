@@ -19,13 +19,14 @@ body{
 	position:fixed;
 	top:0;
 	width:900px;
-	/*background-color:#c0c0c0;
-    opacity: .4;*/
-    float: right;
+	background-image: url("images/pw_maze_white.png");
+
+    box-shadow: 0px 10px 10px -10px #ff7600;
+
 
 }
 
-ul{
+.nav ul{
     float: right;
 
 }
@@ -103,35 +104,21 @@ h1{
     border-bottom-style: ridge;
 }
 
-#page1{
-	height:1000px;
-    padding-top: 50px;
-    position: relative;
+#apps, #data, #resources{
+    padding:20px 0;
 }
 
-#page2{
-	height:1000px;
-    padding-top: 200px;
-    position: relative;
-}
-
-#page3{
-	height:1000px;
-    padding-top: 200px;
-    position: relative;
-}
-
-#page1 h2{
+#apps h2{
     color: #ff7600;
     font-weight: lighter;
 }
 
-#page2 h2{
+#data h2{
     color: #ff7600;
     font-weight: lighter;
 }
 
-#page3 h2{
+#resources h2{
     color: #ff7600;
     font-weight: lighter;
 }
@@ -141,19 +128,19 @@ ul li{
     list-style-type: none;
 }
 
-#page1 ul li a:link {
+#apps ul li a:link {
     color:#333333;
     text-decoration:none;
 }
 
 /* visited link */
-#page1 ul li a:visited {
+#apps ul li a:visited {
     color:#000;
     text-decoration:none;
 }
 
 /* mouse over link */
-#page1 ul li a:hover {
+#apps ul li a:hover {
     color:#333333;
     text-decoration:underline;
     background-color: transparent;
@@ -161,17 +148,17 @@ ul li{
 }
 
 /* selected link */
-#page1 ul li a:active {
+#apps ul li a:active {
     color:#333333;
     text-decoration:none;
 }
 
-#page2{
-    padding-top: 500px;
+#data{
+
 }
 
-#page3{
-    padding-top: 500px;
+#resources{
+
 }
 
 footer{

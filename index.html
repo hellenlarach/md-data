@@ -35,8 +35,8 @@
     
     
 <!--Pages Start goes here-->     
-    <div id="page1">
-      <a id="apps"></a>
+    <div id="apps">
+
 
         <h1>Apps</h1>
 
@@ -106,8 +106,7 @@
         </ul>
 	</div>
     
-    <div id="page2">
-      <a id="data"></a>
+    <div id="data">
         <h1>Data</h1>
 
         <ul>
@@ -176,8 +175,7 @@
         </ul>
 	</div>
 	
-    <div id="page3">
-      <a id="resources"></a>
+    <div id="resources">
         <h1>Resources</h1>
 
         <ul>
@@ -267,7 +265,12 @@
 
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="javascript.js"></script>
-
+<script src="jquery.localScroll/demo/js/jquery.scrollTo.min.js"></script>
+<script src="jquery.localScroll/jquery.localScroll.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.localScroll();
+    });
+</script>
 </body>
 </html>
