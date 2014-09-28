@@ -11,14 +11,14 @@ body{
 }
 
 #wrapper {
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .nav{
 	position:fixed;
 	top:0;
-	width:900px;
+	width:100%;
 	background-image: url("images/pw_maze_white.png");
 
     box-shadow: 0px 10px 10px -10px #ff7600;
@@ -34,7 +34,6 @@ body{
 
 .nav ul li{
 	float:left;
-	display:inline;
 	list-style:none;
 	
 }
@@ -43,7 +42,7 @@ li{
 	list-style-type:none;
 	display:inline;
 	text-decoration:none;
-	padding:10px;
+	padding:3px;
 	font-size:15px;
 
 
@@ -93,19 +92,27 @@ h1{
 }
 
 .image{
-	padding-top:250px;
-	height:400px;
-	width:900px;
+	padding-top:100px;
+    text-align: center;
+    float: left;
+	width:100%;
 	margin:0 auto;
-	background-image:url(images/florida.png);
-	background-position:center;
-	background-repeat:no-repeat;
+	/*background-image:url(images/florida.png);*/
+	/*background-position:center;*/
+	/*background-repeat:no-repeat;*/
     border-bottom-color: #ff7600;
     border-bottom-style: ridge;
+    max-width: 100%;
+}
+
+.image img:first-child{
+    max-width: 100%;
 }
 
 #apps, #data, #resources{
-    padding:20px 0;
+    padding:75px 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #apps h2{
@@ -126,6 +133,10 @@ h1{
 ul li{
     display: block;
     list-style-type: none;
+}
+
+ul{
+    margin-right: 50px;
 }
 
 #apps ul li a:link {
@@ -168,5 +179,9 @@ footer{
     border-top: solid thin #ff7600;
 
 
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
 }
 
